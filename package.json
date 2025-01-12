@@ -1,7 +1,7 @@
 {
   "homepage": "https://anggie2020.github.io/alura-flix",
   "name": "alura-flix",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
