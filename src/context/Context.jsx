@@ -10,28 +10,28 @@ export const typeError = [
 
 export const messages = {
   titulo: {
-    valueMissing: "El campo titulo no puede estar vacío",
-    tooShort: "El titulo tiene que ser al menos de 3 caracteres",
+    valueMissing: "El campo título no puede estar vacío",
+    tooShort: "El título tiene que ser al menos de 3 caracteres",
   },
   categoria: {
-    valueMissing: "El campo categoria no puede estar vacío",
+    valueMissing: "El campo categoría no puede estar vacío",
   },
   imagen: {
     valueMissing: "El campo imagen no puede estar vacío",
-    typeMismatch: "La imagen tiene que ser una URL valida",
+    typeMismatch: "La imagen tiene que ser una URL válida",
     patternMismatch:
-      "La Url de la imagen tiene que empezar asi https://i.ytimg.com/vi/ y debe povenir de Youtube",
+      "La Url de la imagen tiene que empezar asi https://i.ytimg.com/vi/ y debe ser de Youtube",
   },
   video: {
     valueMissing: "El campo video no puede estar vacío",
     typeMismatch: "El video tiene que ser una URL valida",
     patternMismatch:
-      "La Url del video debe povenir de Youtube con la siguiete estructura https://www.youtube.com/watch?v=",
+      "La Url del video debe ser de Youtube con la siguiente estructura https://www.youtube.com/watch?v=",
   },
   descripcion: {
-    valueMissing: "El campo descripcion no puede estar vacío",
-    tooShort: "La descripcion tiene que ser al menos de 3 caracteres",
-    tooLong: "La descripcion alcanzo su logintud maxima",
+    valueMissing: "El campo descripción no puede estar vacío",
+    tooShort: "La descripción tiene que ser al menos de 3 caracteres",
+    tooLong: "La descripción alcanzó su logintud maxima",
   },
 };
 
